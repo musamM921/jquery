@@ -16,5 +16,12 @@ $(document).ready(function(){
     //Add Active to btn 
     $('.filter-item').click(function(){
         $(this).addClass("active-filter").siblings().removeClass("active-filter");
+
     });
 });
+//header background change on scroll
+let header = document.querySelector('header'
+)
+window.addEventListener("scroll", () => {
+    header.classList.toggle("shadow", window.scrollY > 0);
+})

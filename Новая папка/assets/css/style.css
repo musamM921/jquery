@@ -45,6 +45,10 @@ header{
     width: 100%;
     z-index: 200;
 }
+header.shadow{
+    background: var(--bg-color);
+    transition: 0.4s;
+}
 .nav{
     display: flex;
     align-items: center;
