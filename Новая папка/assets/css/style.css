@@ -148,3 +148,11 @@ header{
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+.post-date{
+    display: flex;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 4px;
+
+}
