@@ -208,3 +208,13 @@ color: var(--text-color);
     align-items: center;
     column-gap: 1rem;
 }
+
+.social {
+   font-size: 1.4rem;
+   color: var(--text-color);
+}
+
+.social .bx:hover{
+    color: var(--second-color);
+    transition: 0.3s all linear;
+}
