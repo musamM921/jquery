@@ -12,5 +12,9 @@ $(document).ready(function(){
             .filter('.' + value)
             .show("1000");
         }
+    });
+    //Add Active to btn 
+    $('.filter-item').click(function(){
+        $(this.addClass("active-filter"));
     })
 })
