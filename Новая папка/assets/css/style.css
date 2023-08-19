@@ -138,3 +138,13 @@ header{
    text-transform: uppercase;
    color: var(--second-color);
 }
+.post-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-color);
+    /*to remain title in 2 line */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
