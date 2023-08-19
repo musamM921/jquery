@@ -49,6 +49,9 @@ header.shadow{
     background: var(--bg-color);
     transition: 0.4s;
 }
+header.shadow .logo {
+color: var(--text-color);
+}
 .nav{
     display: flex;
     align-items: center;
