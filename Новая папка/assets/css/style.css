@@ -88,3 +88,15 @@ header{
 .home-title{
     font-size: 3.5rem;
 }
+.home-subtitle{
+   font-size: 1rem;
+    font-weight: 400;
+}
+
+.post-filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-top: 2rem !important;
+}
